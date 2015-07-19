@@ -12,7 +12,7 @@ This class offers a simple wrapper around PHP cURL functionality. It can handle 
 ## GET request
 
     $curl = new CurlRemote( 'http://httpbin.org/get' ); // Prepare the endpoint for a GET request
-    $response = $curl->send( [ 'foo' => 'bar', 'baz' => 'wiz' ], 'get' ); // Send a POST request
+    $response = $curl->send( [ 'foo' => 'bar', 'baz' => 'wiz' ], 'get' ); // Send a GET request
 
 ## Change the user agent
 
